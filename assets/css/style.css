@@ -7,3 +7,33 @@
   color: blue; /* Text color on hover */
   text-decoration: underline; /* Optional underline on hover */
 }
+
+/*Contact table design start*/
+.contact_list {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2ff;
+}
+/*Contact table design end*/

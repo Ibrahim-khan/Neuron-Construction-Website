@@ -1054,7 +1054,7 @@
                 <div class="main-content">
                   <div class="row">
                     <div class="col-lg-6">
-                      <form class="contact-form" action="upload.php" method="post" enctype="multipart/form-data">
+                      <form class="contact-form" action="upload.php" id="myForm" method="post" enctype="multipart/form-data">
                         <!-- form-item -->
                         <div class="form-item">
                           <input
@@ -1062,6 +1062,7 @@
                             type="text"
                             name="name"
                             placeholder="name"
+                            required
                           />
                         </div>
                         <!-- End / form-item -->
@@ -1084,6 +1085,7 @@
                             type="text"
                             name="phone"
                             placeholder="phone"
+                            required
                           />
                         </div>
                         <!-- End / form-item -->
@@ -1095,6 +1097,7 @@
                             type="text"
                             name="subject"
                             placeholder="subject"
+                            required
                           />
                         </div>
                         <!-- End / form-item -->
@@ -1105,6 +1108,7 @@
                             name="message"
                             placeholder="Message"
                             style="height: 150px"
+                            required
                           ></textarea>
                         </div>
                         <!-- End / form-item -->
@@ -1113,10 +1117,11 @@
                           class="btn btn-primary btn-round mb-30"
                           type="submit"
                           name="submit"
+                          onclick="sendMessage()"
                         >
                           Send message
                         </button>
-                      </form>
+                      </form>                     
                     </div>
                     <div class="col-lg-6">
                       <div class="contact-gmap">

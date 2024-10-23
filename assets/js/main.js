@@ -224,6 +224,9 @@ $('.raising-nav').onePageNav({
     currentClass: 'current',
     scrollOffset: header_height
 });
+
+
+
 /**
  * Gallery
  */
