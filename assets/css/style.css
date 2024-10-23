@@ -1,0 +1,9 @@
+.neuronSoftTech {
+  color: black; /* Default text color */
+  text-decoration: none; /* Removes underline */
+}
+
+.neuronSoftTech:hover {
+  color: blue; /* Text color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
